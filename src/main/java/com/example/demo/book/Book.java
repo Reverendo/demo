@@ -5,18 +5,18 @@ public class Book {
 	private String id;
 	private String name;
 	private String description;
-	
-	public Book (String id, String name, String description) {
+
+	public Book(String id, String name, String description) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.description = description;
 	}
 
-	public Book () {
-		
+	public Book() {
+
 	}
-	
+
 	public String getId() {
 		return id;
 	}
@@ -40,5 +40,5 @@ public class Book {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	
+
 }
